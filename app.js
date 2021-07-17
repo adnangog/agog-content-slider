@@ -1,6 +1,3 @@
-/*
-- auto play olacak
-*/
 
 const container = document.querySelector(".carousel-container");
 const carousel = document.querySelector(".carousel-items");
@@ -12,7 +9,6 @@ let isSliding = false;
 
 items.forEach((item, i) => {
     item.style.flexBasis = itemWidth + 'px';
-    // item.style.width = itemWidth + 'px';
 })
 
 items = Array.prototype.slice.call(document.querySelectorAll(".carousel-item"));
